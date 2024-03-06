@@ -31,7 +31,7 @@ decoding and rendering routines, and the level tile map.
  - Reservation of a unique file for tile graphic data. It shall be known
    as the tile texture map. It is a linear sequence of contents of binary
    number-coded images. The ```.tmp``` file extension of this format can 
-   denote this convention;
+   denote it;
  - Tile rendering logic;
  - The air tile;
  - The stone tile;
