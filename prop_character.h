@@ -1,0 +1,16 @@
+#define PLAYER_ACCELERATION_NUMERATOR_X 1
+#define PLAYER_SPEED_DENOMINATOR 7
+#define PLAYER_MIN_FULLSPEED_COEF 2
+
+#define PLAYER_ACCELERATION_NUMERATOR_Y 4
+#define PLAYER_MAX_SPEED_Y (5 * PLAYER_SPEED_DENOMINATOR)
+#define PLAYER_MAX_JUMP_HOLD_FRAMES 15
+
+#define PLAYER_ANIMATION_CHANGE_PERIOD (3 * PLAYER_SPEED_DENOMINATOR / 2)
+
+#define ANIM_OFFSCREEN 0x7F
+
+#define generateCharacterArray(function) \
+    { function(player), \
+      function(bug) \
+    }
