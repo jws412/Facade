@@ -124,9 +124,9 @@ N/A
    texture map.
 
 ### Fixed
- - BUGFIX: Mirrored, 100+ pixel wide sprites render garbage data.
- - BUGFIX: The right ends of 100+ pixel wide sprites can wrap around the
-   screen if appearing cut off in the player's viewport.
+ - BUGFIX: Mirrored, 100+ pixel wide character sprites render garbage data.
+ - BUGFIX: The right ends of 100+ pixel wide character sprites can wrap
+   around the screen if appearing cut off in the player's viewport.
  - BUGFIX: The collision width of the scarab beetle character does not 
    match the one of its mold.
  - BUGFIX: The game can still accept player input when not in focus.
