@@ -54,8 +54,8 @@ decoding and rendering routines, and the level tile map.
 
 ### Changed
  - Resized the backbuffer to 384x216 pixels instead of the native monitor
-   dimensions. The rendering routine stretches this memory region to the
-   monitor's dimensions.
+   dimensions. The rendering routine stretches its pixel data to the
+   monitor's dimensions;
  - A Horus player character substitutes the white square. It features 
    animations for running and jumping;
  - Reworked motion logic as a function of player input;
