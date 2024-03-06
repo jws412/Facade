@@ -12,9 +12,10 @@ follows:
    displays the contents every game update;
  - A controllable, white square. Arrow keys and the space bar controls its
    position. This square is bounded by the dimensions of the window;
- - A debug interface describing current CPU, RAM, Pagefile usage alongside 
-   handle count. Ctrl + C toggles on and off this menu's rendering;
- - A debug console to print messages.
+ - A debug interface describing current CPU, RAM, and Pagefile usage
+   alongside handle count. Ctrl + C toggles on and off this menu's
+   rendering;
+ - A debug console to print messages accompanying the debug interface.
 
 ## [v0.1.0-alpha] - 2024-01-30
 
@@ -51,6 +52,9 @@ decoding and rendering routines, and the level tile map.
  - Player coordinates in the debug interface.
 
 ### Changed
+ - Resized the backbuffer to 384x216 pixels instead of the native monitor
+   dimensions. This memory region stretches to the dimensions of the
+   monitor.
  - A Horus player character substitutes the white square. It features 
    animations for running and jumping;
  - Reworked motion logic as a function of player input;
