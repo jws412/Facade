@@ -129,3 +129,4 @@ N/A
    screen if appearing cut off in the player's viewport.
  - BUGFIX: The collision width of the scarab beetle character does not 
    match the one of its mold.
+ - BUGFIX: The game can still accept player input when not in focus.
