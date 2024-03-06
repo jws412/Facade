@@ -49,12 +49,13 @@ decoding and rendering routines, and the level tile map.
    a characters associated to the mold identifier;
  - Holding X increases the maximum horizontal speed attainable by what
    the player is controlling;
+ - Player collision with the tiles of the level tile map;
  - Player coordinates in the debug interface.
 
 ### Changed
  - Resized the backbuffer to 384x216 pixels instead of the native monitor
-   dimensions. This memory region stretches to the dimensions of the
-   monitor.
+   dimensions. The rendering routine stretches this memory region to the
+   monitor's dimensions.
  - A Horus player character substitutes the white square. It features 
    animations for running and jumping;
  - Reworked motion logic as a function of player input;
